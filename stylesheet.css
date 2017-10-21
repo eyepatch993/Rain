@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 50px; background-color: lightgrey;
+}
+.wrapper{
+    width: 50%;
+    padding: 25%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.menubar{text-align: center; overflow: hidden;}
+.menubar ul{list-style: none;}
+.menubar ul li{}
+.menubar ul li a{float: left;text-decoration: none;padding: 50px;padding-top: 10px;margin-top: 3px;padding-bottom: 20px;transition: .75s;font-size: 12pt;font-family: 'Poiret One', cursive;color: black;font-weight: bold;}
+.menubar ul li a:hover{background-color:black;color: whitesmoke;letter-spacing: 3;border-top: 3px solid wheat;}
+.slider{
+    width: 100%;
+    height: 700px;
+    background-image: url(sliderbg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.scontent{position: absolute;height: 200px; width: 30%;color: wheat;top: 40%;left: 35%;text-align: center;background-image: url(shape%252525201.png);background-position: left;background-size: contain;background-repeat: no-repeat;font-family: 'Julius Sans One', sans-serif;}
+.scontent h1{font-size: 40pt;font-weight: bolder;color: black;letter-spacing: 8;}
+.scontent p{font-size: 17pt;font-weight: bold;color: white;font-family: 'Nothing You Could Do', cursive;margin-top: 5px;line-height: 2;}
+.sp1{height: 700px;padding-left:;
+    image-orientation: center;
+    image-resolution: snap;
+    opacity: .5;width: 100%;
+   
+}
+
+.services{margin-top: 0px;height: 900px;background-color: #E3E0E1;overflow: hidden;}
+.services h1{text-align: center;font-family: 'Poiret One', cursive;font-weight: bolder;font-size: 25pt;margin-top: 50px;letter-spacing: 10;}
+.services p{text-align: center;font-family: 'Poiret One', cursive;font-size: 20pt;margin-top: 20px;font-weight: bold;}
+.services p span{font-size: 28pt; color: darkred;letter-spacing: 5;}
+.cbox{height: 300px; width: 32%;float: left;margin-left: 14px;margin-top: 20px;}
+.icon{
+    font-size: 80pt;text-align: center;color: #746882;margin-top: 30px;
+}
+.icon:hover{color: #433F40;}
+.i_h{
+    font-size: 25pt;text-align: center;font-family: 'Poiret One', cursive;font-weight: 900;color: #433F40;margin-top: 20px;
+}
+.i_para{
+    text-align: center;font-size: 15pt;color: #433F40;margin-top: 40px;font-family: monospace;
+}
+
+
+.gallery{
+    height: 900px;
+    background-image: url(gallback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g_cont{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    float: left;
+    margin-left: 115px;
+    margin-top: 20px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+.g_box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 150px;
+    margin-left: 7%;
+    opacity: .5;
+}
+.abc{background-image: url(1.jpg);background-repeat: no-repeat;background-size: cover;}
+.bcd{background-image: url(2.jpg);background-repeat: no-repeat;background-size: cover;}
+.efg{background-image: url(3.jpg);background-repeat: no-repeat;background-size: cover;}
+.hij{background-image: url(4.jpg);background-repeat: no-repeat;background-size: cover;}
+.lmn{background-image: url(5.jpg);background-repeat: no-repeat;background-size: cover;}
+.xyz{background-image: url(6.jpg);background-repeat: no-repeat;background-size: cover;}
+.g_cont p{
+    font-size: 16pt;margin-top: 10px;
+}
+.g_box:hover{opacity: 1;transform: scale(1.05);border: 5px dashed black;}
+.members{ font-family: 'Poiret One', cursive;
+    height: 205px;background-color: lightskyblue;margin-top: 0;overflow: hidden;
+}
+.members form{
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+
+}
+.members h1{margin-top: 10px;text-align: center;}
